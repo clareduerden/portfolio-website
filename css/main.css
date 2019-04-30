@@ -1,0 +1,128 @@
+/* Default styles  */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #292F36;
+}
+h3 {
+  font-family: 'Arvo', serif;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+h4 {
+  font-family: 'Arvo', serif;
+  font-size: 24px;
+  margin-top: 0;
+  line-height: 30px;
+}
+/* SECTION HEIGHTS, COLORS AND PADDING ETC */
+header {
+  height: 800px;
+  background:url('../img/hero3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 2px;
+}
+#portfolio {
+  height: 1200px;
+  background-color: #FFFFFF;
+  padding-top: 30px;
+}
+#about {
+  height: 650px;
+  background-color: #F2D52A;
+  padding-top: 30px;
+}
+#contact {
+  height: 350px;
+  background-color: #292F36;
+  padding-top: 30px;
+  color: #FFFFFF;
+}
+footer {
+  height: 50px;
+  background-color: #292F36;
+  padding-top:30px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* SET UP MY GRID SYSTEM AND LAYOUT */
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  /* border: 5px red solid; */
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+.project {
+  clear: both;
+  padding-top: 50px;
+  overflow: auto;
+}
+/* HEADER STYLING */
+header nav {
+  float: left;
+}
+header nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  padding-right: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+header nav ul li a:hover {
+  color: #bdbf09;
+}
+header h1 {
+  padding-top: 80px;
+  font-family: 'Arvo', serif;
+  color: #D0D00F;
+  font-size: 60px;
+}
+header h2 {
+  font-size: 42px;
+}
+/* PORTFOLIO STYLING */
+.project img {
+  border: 2px solid #E8E6E1;
+  border-radius: 8px;
+}
+/* ABOUT STYLES */
+#about img {
+  width: 460px;
+  border-radius: 8px;
+  border: solid white 2px;
+}
+/* CONTACT SECTION STYLES */
+a[href^="mailto"] {
+  color: #D0D00F;
+  text-decoration: none;
+}
+#contact p {
+  color: #D0D00F;
+}
+.fa-twitter, .fa-github, .fa-linkedin-in {
+  color: #D0D00F;
+}
+#contact ul {
+  padding-inline-start: 0;
+}
+#contact ul li {
+  display: inline-block;
+  padding-right:10px;
+  padding-left:10px;
+}
